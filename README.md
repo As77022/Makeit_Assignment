@@ -10,16 +10,12 @@ ClickHouse was set up using the official Docker image. The following command was
 
 ```sh
 docker run -d --name clickhouse-server -e CLICKHOUSE_USER=myuser -e CLICKHOUSE_PASSWORD=mypassword -e CLICKHOUSE_DEFAULT_ACCESS_MANAGEMENT=1 -p 8123:8123 -p 9000:9000 clickhouse/clickhouse-server
-
+```
 
 This command:
-
 - Pulls the official ClickHouse image.
-
 - Creates a container named clickhouse-server.
-
 - Sets up user authentication (myuser / mypassword).
-
 - Exposes ports 8123 (HTTP) and 9000 (native).
 
 ---
