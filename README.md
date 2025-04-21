@@ -1,6 +1,6 @@
 #  ClickHouse Environment Setup for Windows
 
-This project demonstrates how to set up a ClickHouse environment on Windows using Docker, connect it to a database management tool (like DBeaver), and run SQL queries for analysis. This was part of a ClickHouse Test Project involving sample data and analytical SQL queries
+In This repository, I will demonstrates how to set up a ClickHouse environment on Windows using Docker, connect it to a database management tool (like DBeaver), and run SQL queries for analysis. This is a part of a ClickHouse query knowledge Test involving sample data and analytical SQL queries.
 
 ---
 
@@ -21,7 +21,7 @@ This command:
 I used DBeaver, a free database management tool, to connect to the ClickHouse server using the credentials provided above. 
 
 ##  3. Created Tables and Loaded Sample Data :
-I created tables by copying the provided SQL table definitions. After the tables were created, I loaded the sample data for analysis.
+I created tables by copying the provided SQL tables . After the tables were created, I loaded the sample data for analysis.
 
 ##  4. Solutions to the Questions :
 I analyzed the table structures and wrote SQL queries to answer the provided analytical and bonus questions. For the bonus questions, I took help AI assistance (like GitHub Copilot) to write logical solution.
